@@ -37,7 +37,7 @@ jobs:
                 php-version: ${{ matrix.php-version }}
                 arch: ${{ matrix.arch }}
                 ts: ${{ matrix.ts }}
-                args: --enable-xdebug
+                args: --with-xdebug
                 libs: zlib
 
     release:
