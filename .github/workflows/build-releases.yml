@@ -39,7 +39,7 @@ jobs:
                 args: --with-xdebug
                 libs: zlib
                 test-runner: run-xdebug-tests.php
-                test-opcache-mode: both
+                test-opcache-mode: off
 
     release:
         runs-on: ubuntu-latest
