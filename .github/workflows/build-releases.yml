@@ -38,6 +38,7 @@ jobs:
                 ts: ${{ matrix.ts }}
                 args: --with-xdebug
                 libs: zlib
+                test-runner: run-xdebug-tests.php
                 test-opcache-mode: both
 
     release:
