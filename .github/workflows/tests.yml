@@ -7,6 +7,7 @@ on:
             - 'xdebug_*'
         tags: ['*']
     pull_request:
+    create:
 
 jobs:
     get-extension-matrix:
