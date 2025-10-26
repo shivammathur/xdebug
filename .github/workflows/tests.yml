@@ -106,4 +106,3 @@ jobs:
               with:
                 release: ${{ github.ref }}
                 token: ${{ secrets.GITHUB_TOKEN }}
-                draft: 'true'
